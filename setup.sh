@@ -28,6 +28,6 @@ if [ $# -eq 0 ]
   then
     ./install-fabric.sh
 else
-    ./install-fabric.sh ${#1} binary
+    ./install-fabric.sh --fabric-version ${#1} binary
 fi
 
