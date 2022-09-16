@@ -1,7 +1,11 @@
 name: "Setup Hyperledger Fabric"
 description: "Setup the Hyperledger Fabric Framework"
+inputs:
+  fabric-version:
+    description: "The version of Hyperledger Fabric binaries"
+    required: false
 runs:
   using: "composite"
   steps:
-    - run: $GITHUB_ACTION_PATH/setup.sh 
+    - run: $GITHUB_ACTION_PATH/setup.sh ${{ inputs.fabric-version }} 
       shell: bash
