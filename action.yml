@@ -1,0 +1,7 @@
+name: "Setup Hyperledger Fabric"
+description: "Setup the Hyperledger Fabric Framework"
+runs:
+  using: "composite"
+  steps:
+    - run: $GITHUB_ACTION_PATH/setup.sh 
+      shell: bash
