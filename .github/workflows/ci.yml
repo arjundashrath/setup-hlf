@@ -1,1 +1,18 @@
-//Add test flows
+name: CI
+
+on:
+  pull_request:
+    branches:
+      - main
+    
+permissions: 
+  contents: read
+
+jobs:
+  code-coverage:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - uses: codecov/codecov-action@v3
