@@ -14,6 +14,8 @@ echo "Installing cURL..."
 sudo apt-get install curl
 curl -V
 
+
+//Instantializing docker and daemon
 echo "Installing docker and docker-compose..."
 sudo apt-get -y install docker-compose
 docker --version
