@@ -2,6 +2,7 @@
 
 echo "Running setup-hlf github action..."
 
+//Preequisite Step
 echo "Checking prerequisites..."
 
 echo "Installing Git..."
