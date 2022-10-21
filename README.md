@@ -13,3 +13,7 @@ jobs:
       - name: Setup Hyperledger Fabric
         uses: arjundashrath/setup-hlf@v0.0.1
 ```
+
+#### Action Inputs
+|Input|Description|Required|
+|-----|-----------|--------|
