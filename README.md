@@ -1,5 +1,5 @@
 # setup-hlf
-Action to set up Hyperledger Fabric Framework
+Action to set up [Hyperledger Fabric Framework](https://www.hyperledger.org/use/fabric)
 
 ### Example workflow
 
@@ -17,3 +17,4 @@ jobs:
 #### Action Inputs
 |Input|Description|Required|
 |-----|-----------|--------|
+|fabric-version|The specific version of hlf to be installed|false|
