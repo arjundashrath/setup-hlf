@@ -1,6 +1,6 @@
 name: Spellcheck Action
 on: 
-  push:
+  pull_request:
     paths:
       - '*.md'
 
