@@ -1,5 +1,5 @@
 # setup-hlf
-Action to set up [Hyperledger Fabric Framework](https://www.hyperledger.org/use/fabric)
+GitHub Action to set up [Hyperledger Fabric Framework](https://www.hyperledger.org/use/fabric)
 
 ### Example workflow
 
