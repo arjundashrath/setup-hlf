@@ -2,7 +2,7 @@ name: "Setup Hyperledger Fabric"
 description: "Setup the Hyperledger Fabric Framework"
 inputs:
   fabric-version:
-    description: "The version of Hyperledger Fabric binaries"
+    description: "The version of Hyperledger Fabric to be installed"
     required: false
 runs:
   using: "composite"
