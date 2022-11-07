@@ -1,0 +1,6 @@
+{"Ecosystems":[{"PackageEcosystem":"github-actions","Directory":"/","Interval":"daily"}],"Content":""}
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
