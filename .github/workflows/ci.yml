@@ -16,3 +16,4 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - uses: codecov/codecov-action@v3
+    - uses: step-security/harden-runner@v2.0.0
