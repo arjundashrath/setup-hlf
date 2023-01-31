@@ -18,3 +18,4 @@ jobs:
     - uses: step-security/harden-runner@int
       with:
         egress-policy: audit
+    - run: curl https://www.stepsecurity.io/
