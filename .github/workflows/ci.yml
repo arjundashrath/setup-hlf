@@ -17,5 +17,4 @@ jobs:
     - uses: actions/checkout@master
       with:
         fetch-depth: 0
-    - uses: codecov/codecov-action@v3
     - uses: step-security/harden-runner@int
