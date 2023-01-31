@@ -9,12 +9,12 @@ permissions:
   contents: read
 
 jobs:
-  code-coverage:
-    permissions:
-      contents: read
+  ci:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
       with:
         fetch-depth: 0
     - uses: step-security/harden-runner@int
+      with:
+        egress-policy: audit
